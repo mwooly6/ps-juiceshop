@@ -1,5 +1,9 @@
-steps:
-  - name: ZAP Scan
-    uses: zaproxy/action-baseline@v0.8.1
-    with:
-      target: 'https://ps-juiceshop-05c17cab9c2f.herokuapp.com/'
+jobs:
+  zap_scan:
+    runs-on: ubuntu-latest
+    name" ZAP Scan
+    steps:
+      - name: ZAP Scan
+        uses: zaproxy/action-baseline@v0.8.1
+        with:
+          target: 'https://ps-juiceshop-05c17cab9c2f.herokuapp.com/'
