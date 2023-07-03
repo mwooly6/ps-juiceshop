@@ -13,8 +13,8 @@ jobs:
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
         with:
           ref: develop
-      - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.3.0
+      - name: OWASP ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.8.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'https://ps-juiceshop-05c17cab9c2f.herokuapp.com/'
