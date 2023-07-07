@@ -1,0 +1,7 @@
+applications:
+- api_domain: ps-juiceshop-05c17cab9c2f.herokuapp.com
+  application_name: Juice Shop
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: https://ps-juiceshop-05c17cab9c2f.herokuapp.com
+  type: web
