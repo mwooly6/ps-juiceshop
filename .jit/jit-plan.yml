@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 75d71f2f-b915-4936-8ade-4fb208917836
 author: Jit
 version: 0.1
 owners:
@@ -11,6 +12,4 @@ items:
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
   - name: Scan your web application for vulnerabilities
-    uses: >-
-      jitsecurity-controls/jit-plans/items/runtime/item-web-app-scanner.yml@latest
-
+    uses: jitsecurity-controls/jit-plans/items/runtime/item-web-app-scanner.yml@latest
